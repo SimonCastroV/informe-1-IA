@@ -44,12 +44,12 @@ A continuación se detalla quién realizó cada uno, así como las versiones de 
    
 
    
-3. **Ejercicio 3: [Navegación en una Red de Metro]**
+3. ## **Ejercicio 3: [Navegación en una Red de Metro]**
    - **Descripción:** [encontrar Ruta optima por medio de BFS/IDS. Resultados obtenidos en
 términos de tiempo de ejecución y memoria]
    - **Autor:** [Santiago Villamizar]
   
-## 🛠 Versiones utilizadas
+🛠 Versiones utilizadas
 
 - **Python:** 3.12.10 
 - **Editor de código:** [Visual Studio Code 1.103.0]  
