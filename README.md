@@ -19,9 +19,9 @@ A continuación se detalla quién realizó cada uno, así como las versiones de 
 
 
    
-## 2. **Ejercicio 2: [Título o breve descripción]**
-   - **Descripción:** [Explica brevemente en qué consiste el ejercicio]
-   - **Autor:** [Nombre o usuario]
+## 2. **Ejercicio 2: [Resolución del problema de Maze con A*]**
+   - **Descripción:** [Implementación y solución del problema de Maze (laberinto) utilizando el algoritmo de búsqueda informada A*. El objetivo es que un robot encuentre la salida en una representación 2D del laberinto, evitando paredes y obstáculos, optimizando el recorrido según una heurística (distancia Manhattan o Euclidiana) y permitiendo manejar múltiples salidas y diferentes tipos de terreno con costos de movimiento variables. Incluye modificaciones para soportar laberintos más grandes y con obstáculos adicionales como barro y agua, además de paredes]
+   - **Autor:** [Alberto Daniel Cervantes Forero]
 
 🛠 Versiones utilizadas
 
@@ -29,11 +29,9 @@ A continuación se detalla quién realizó cada uno, así como las versiones de 
 - **Editor de código:** [Visual Studio Code 1.103.0]  
 - **Librerías utilizadas:**  
   - Todas las Librerias Utilizadas vienen por default:
-      - **collections** → proporciona estructuras de datos adicionales
-      - **time** → manejo y medición de tiempo en segundos o ms
-      - **tracemalloc** → seguimiento y medición del uso de memoria.
-      - **dataclasses** → facilita la creación de clases para almacenar datos con menos código.
-      - **typing** → provee tipos para anotaciones y chequeo estático
+      - **math** → operaciones matemáticas y funciones de distancia (Euclidiana, hipotenusa)
+      - **heapq** → manejo de colas de prioridad (necesarias para la frontera de A*)
+      - **typing** → tipos y anotaciones para mayor claridad en funciones y clases
    
 
    
